@@ -161,6 +161,9 @@ To run this application, you need to download this application to a local direct
 If you want the app to run, you can connect to the firebase database and set it up and to perform pub get operation in pubsec.yaml, download the google json file and put it into the app layer and you have to create you own API to enable the GPS function and API key.
 ![](/pic/pub.png)
 
+**software requirements:** Android studio, Flutter plugin, USB devices driver, Google Cloud Platform API, Firebase Cloud Firestore
+**Hardware Requirement:** pc/laptop, Android phone, network cable or Wifi, USB cable
+
 While you are able to run this app in the emulator, you should see UI chat screen like  
 ![this](/pic/letschat.png)
 
