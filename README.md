@@ -169,7 +169,7 @@ While you are able to run this app in the emulator, you should see UI chat scree
 ![this](/pic/letschat.png)
 
 
-**Note:** If the Android Studio gives you an error message after everything necessary set for this app. You have to compare the running code version and the compiled version.
+**Error:** If the Android Studio gives you an error message after everything necessary set for this app. You have to compare the running code version and the compiled version.
 
 
 
