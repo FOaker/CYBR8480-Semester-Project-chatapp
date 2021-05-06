@@ -130,19 +130,19 @@ Security analysis of abuse cases, the remedial measures for chat applications ar
 
 
 ## Implementation
-Check the /lib/main file in this repo or click  [Link!](https://github.com/FOaker/CYBR8480-Semester-Project-chatapp/blob/main/lib/main.dart)
+Check the /lib/main file in this repo or click  [Link!](https://github.com/FOaker/CYBR8480-Semester-Project-chatapp/tree/main/lib)
 
 
 ## Testing
 All the test case can be viewed [test!](https://github.com/FOaker/CYBR8480-Semester-Project-chatapp/tree/main/test)
 
 
-| Function | Criteria | result | 
-| ------------- | -------- | ----------- |
-| chatscreen | Check whether the user input is normal and whether the listview can scroll normally | correctly passed |
-| login | Test whether you can log in with an unauthorized user | correctly passed | 
-| roundedbutton | Test whether a custom widget can meet the requirements | correctly passed | 
-| welcomescreen | Test whether the login and registration buttons on the login interface are norma | correcly passed | 
+| Function | Criteria | result | actions taken to mitigate |
+| ------------- | -------- | ----------- |------------------------- |
+| chatscreen | Check whether the user input is normal and whether the listview can scroll normally | correctly passed | Not required |
+| login | Test whether you can log in with an unauthorized user | correctly passed | Not required |
+| roundedbutton | Test whether a custom widget can meet the requirements | correctly passed | Not required |
+| welcomescreen | Test whether the login and registration buttons on the login interface are norma | correcly passed | Not required |
 
 There are also some tests that continue to be improved in the future, such as sound test and Google map test, and whether the size in the game mode is matched.
 
