@@ -120,7 +120,7 @@ Security analysis of abuse cases, the remedial measures for chat applications ar
 **[This link to raw Design](/pic/ChatAppsecurityanalysis.png).**
 ![](/pic/ChatAppsecurityanalysis.png)
 
-| Threat | Category | Description | Mitigation |
+| Component name | Category of vulnerability | Issue Description | Mitigation |
 |----------------|---------------------------|-------------------|------------|
 | Unauthorized Login | Information Disclosure & Spoofing | Without credential verification, anyone can log in to the server. Therefore, this component may leak user information | Require users to register a username and password, and hand over the data to google firebase |
 | Password Crack | Information Disclosure & Spoofing | The password length and complexity are low, and the user’s account will be hacked in a simple way, so that hackers can use these cracked credentials to obtain user information, chat information, and location information | The password management policy will set a minimum length and require a more complex combination when the user creates a password, as well as the number of logins |
