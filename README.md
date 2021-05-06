@@ -76,7 +76,7 @@ As an Internet hacker in social engineering, I want to collect user location inf
 ### Design
 ![](/pic/chatapp.png)
 
-**Or check the raw resource [this link to raw Design](/pic/chatapp.png).**
+**Or check the raw resource [This link to raw Design](/pic/chatapp.png).**
 
 ## Component List
 ### 1. Authentication Component
@@ -117,7 +117,7 @@ Multi-person interactive projects, positioning of two people, and some entertain
 Security analysis of abuse cases, the remedial measures for chat applications are mainly discussing the security level, and hackers want to conduct several attacks, such as gaining unauthorized access or sniffing to discover the user's location and login credentials.
 
 
-**[this link to raw Design](/pic/ChatAppsecurityanalysis.png).**
+**[This link to raw Design](/pic/ChatAppsecurityanalysis.png).**
 ![](/pic/ChatAppsecurityanalysis.png)
 
 | Threat | Category | Description | Mitigation |
