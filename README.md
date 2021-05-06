@@ -117,13 +117,13 @@ Security analysis of abuse cases, the remedial measures for chat applications ar
 **Or check the raw resource [This link to raw Design](/pic/ChatAppsecurityanalysis.png).**
 ![](/pic/ChatAppsecurityanalysis.png)
 
-| Component name | Category of vulnerability | Issue Description | Mitigation |
+| Threat | Category | Description | Mitigation |
 |----------------|---------------------------|-------------------|------------|
-| Unauthorized Login | Denial of Service | Without credential validating, anyone can query the server. Hence, this component could cause network paralysis and traffic latency, so that right users will not be able to login | Requiring of registration with user identity and password will restrict bad behaviors because the malicious user will expose themselves |
-| Password Crack | Information Disclosure & Spoofing | Weak password length and complexity will make cracking users' accounts in a simple way, so that hacker can use those cracked credentials to request other services without users' awareness’s | Password management policy will set a minimum length and require more complicated combination while users are creating their passcodes |
-| Password Sniffing | Information Disclosure & Spoofing | Hackers can capture the traffic between users and server while they are communicating each other to sniff passcode, so they could pretend as the right users | The Firebase backend, which is developed by Google, is using secure communication channel and complex encryption algorithm while it builds connection with users. Hence, it makes network capture become harder |
-| Unauthorized Location Access | Privilege Escalation | This component can expose user's location to let hackers steal their daily fitness and GPS data, so they can understand their exercise habits/hobbies and go ahead social engineering them | Google Cloud Platform not only provide the Map services, but also provides the restricted secure API key feature to the developer, so as long as hacker cannot get the key, they won't be able to access users' GPS data |
-| Inject Script | Tampering | Malicious users can target on user's route calculating function to provide wrong direction and distance by injecting script to the tamper with the Google Map API key | Google provides a code log monitor to check analyze the traffic between itself and user to see if there is any unauthorized access to its API key and inform this to the project owner (developer) |
+| Unauthorized Login | Information Disclosure & Spoofing | Without credential verification, anyone can log in to the server. Therefore, this component may leak user information | Require users to register a username and password, and hand over the data to google firebase |
+| Password Crack | Information Disclosure & Spoofing | The password length and complexity are low, and the user’s account will be hacked in a simple way, so that hackers can use these cracked credentials to obtain user information, chat information, and location information | The password management policy will set a minimum length and require a more complex combination when the user creates a password, as well as the number of logins |
+|  Chat Sniffing | Information Disclosure & Spoofing | Hackers can capture the data between the user and the server when the user and the server communicate with each other to sniff the password, so they can know what the user is talking about | TThe Firebase cloud backend developed by Google is using secure communication channels and complex encryption algorithms when establishing connections with users |
+| Unauthorized Location Access | Privilege Escalation | The user’s location can be exposed so that hackers can steal their chat location and GPS data, so that they can carry out personal attacks or blackmail or perform social engineering on them | Google Cloud Platform provides map services and also provides developers with restricted security API key functions. Therefore, as long as hackers cannot obtain the key, they will not be able to access the user's GPS data. The secret key needs to be kept properly! |
+
 
 
 ## Implementation
@@ -131,7 +131,7 @@ Check the /lib/main file in this repo or click  [Link](https://github.com/FOaker
 
 
 ## Testing
-I will use the flutter Unit test to evalute if the HealthApp can pass those test. In general, I will test some values inside of each function to see if those have been changed after one widget has been pumped. All the test case can be viewed [Over Here!](https://github.com/ZexiXin/CYBR8480_Semester_Project/blob/main/test/widget_test.dart)
+I will use the flutter Unit test to evalute if the HealthApp can pass those test. In general, I will test some values inside of each function to see if those have been changed after one widget has been pumped. All the test case can be viewed [test!](https://github.com/ZexiXin/CYBR8480_Semester_Project/blob/main/test/widget_test.dart)
 
 
 | Test Function | Criteria | Test result | Need further modification |
