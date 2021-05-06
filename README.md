@@ -149,7 +149,8 @@ There are also some tests that continue to be improved in the future, such as so
 
 ## Demo
 
-The video demo [here]()   
+The video demo [here]()  
+The slde [here](https://github.com/FOaker/CYBR8480-Semester-Project-chatapp/tree/main/slide)
 
 
 
