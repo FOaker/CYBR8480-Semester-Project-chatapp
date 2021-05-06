@@ -1,5 +1,6 @@
 # CYBR8480 Semester Project
 A semester project regarding to make friends and have fun.
+![](/pic/chatui.png)
 
 ## Overview
 
