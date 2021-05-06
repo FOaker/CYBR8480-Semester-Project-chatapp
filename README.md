@@ -112,8 +112,8 @@ Multi-person interactive projects, positioning of two people, and some entertain
 
 ## Security analysis
 The misuse case and its remediation of HealthCare app is mainly discussing the security level while hackers would like to do several attacks to get unauthorized access or escalate his privilege to retrieve user's location and login credentials. 
-![his link to raw Design](/pic/ChatApp security analysis.png).**
-![](/pic/ChatApp security analysis.png)
+**Or check the raw resource [This link to raw Design](ChatAppsecurityanalysis.png).**
+![](ChatAppsecurityanalysis.png)
 
 | Component name | Category of vulnerability | Issue Description | Mitigation |
 |----------------|---------------------------|-------------------|------------|
