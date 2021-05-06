@@ -72,7 +72,7 @@ As an Internet hacker in social engineering, I want to collect user location inf
 ### Design
 
 ![Chat_APP Design](./pic/Chat_APP Design.png)
-![](./pic/Chat_APP Design.png)
+![](/pic/Chat_APP Design.png)
 
 **Or check the "raw" resource [this link to HealthCare Design](./assets/design_2.png).**
 
