@@ -117,7 +117,7 @@ Multi-person interactive projects, positioning of two people, and some entertain
 Security analysis of abuse cases, the remedial measures for chat applications are mainly discussing the security level, and hackers want to conduct several attacks, such as gaining unauthorized access or sniffing to discover the user's location and login credentials.
 
 
-** Raw resource [This link to raw Design](/pic/ChatAppsecurityanalysis.png).**
+**Raw resource [This link to raw Design](/pic/ChatAppsecurityanalysis.png).**
 ![](/pic/ChatAppsecurityanalysis.png)
 
 | Threat | Category | Description | Mitigation |
