@@ -72,7 +72,7 @@ As an Internet hacker in social engineering, I want to collect user location inf
 ### Design
 ![](/pic/chatapp.png)
 
-**Or check the "raw" resource [this link to HealthCare Design](/pic/Chat_APP Design.png).**
+**Or check the "raw" resource [this link to raw Design](/pic/chatapp.png).**
 
 ## Component List
 ### 1. Authentication Component
