@@ -127,8 +127,7 @@ Security analysis of abuse cases, the remedial measures for chat applications ar
 
 
 ## Implementation
-Check the /lib/main file in this repo or click  
-[Link](https://github.com/FOaker/CYBR8480-Semester-Project-chatapp/blob/main/lib/main.dart)
+Check the /lib/main file in this repo or click  [Link](https://github.com/FOaker/CYBR8480-Semester-Project-chatapp/blob/main/lib/main.dart)
 
 
 ## Testing
