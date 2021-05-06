@@ -70,10 +70,9 @@ As an Internet hacker in social engineering, I want to collect user location inf
 
 
 ### Design
+![](/pic/Chat_APP Design.png)
 
-![High Level Design of HealthCare App](./assets/high_level_design_1.svg)
-
-**If you would like acess the larger view of the image, please click [this link to HealthCare Design](./assets/design_2.png), or you can click the top image then check the "raw" resource.**
+**Or check the "raw" resource [this link to HealthCare Design](/pic/Chat_APP Design.png).**
 
 ## Component List
 ### 1. Authentication Component
