@@ -157,17 +157,14 @@ The video demo [here]()
 
 To run this application, you need to download this application to a local directory by clicking the "Code" button at the top right of the main page of this repository, and then click "Open with GitHub Desktop" or "Download Zip".
 
-If you want the app to run, you can connect to the firebase database and set it up, download the google json file and put it into the app layer and you have to create you own API to enable the GPS function and API key.
+If you want the app to run, you can connect to the firebase database and set it up and to perform pub get operation in pubsec.yaml, download the google json file and put it into the app layer and you have to create you own API to enable the GPS function and API key.
 
 While you are able to run this app in the emulator, you should see UI chat screen like  
 ![this](/pic/letschat.png)
 
 
-**Note:** After set everything necessary for this app, if the Android Studio gives you an error message while you compile/build the app. You could try to run the command in the terminal
-```
-flutter clean
-```
-then try to rebuild the app on your device. The reason causes this is the file pubspec.yaml contains conflict class variables in different imported packages. 
+**Note:** If the Android Studio gives you an error message after everything necessary set for this app. You have to compare the running code version and the compiled version.
+
 
 
 #### License
