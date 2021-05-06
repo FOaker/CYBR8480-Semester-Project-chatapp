@@ -2,7 +2,7 @@
 A semester project regarding to make friends and have fun.
 
 
-![](/pic/chatui.png)
+                            ![](/pic/chatui.png)
 
 ## Overview
 
