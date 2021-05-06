@@ -131,22 +131,23 @@ Check the /lib/main file in this repo or click  [Link](https://github.com/FOaker
 
 
 ## Testing
-I will use the flutter Unit test to evalute if the HealthApp can pass those test. In general, I will test some values inside of each function to see if those have been changed after one widget has been pumped. All the test case can be viewed [test!](https://github.com/ZexiXin/CYBR8480_Semester_Project/blob/main/test/widget_test.dart)
+All the test case can be viewed [test!](https://github.com/FOaker/CYBR8480-Semester-Project-chatapp/tree/main/test)
 
 
-| Test Function | Criteria | Test result | Need further modification |
-| ------------- | -------- | ----------- | ------------------------- |
-| HeartRate | Tested the variable change and compare if it is equal to a expected value | correctly passed | Not required at this stage |
-| Customer Service | Tested if a widget can be pumped and execute right login and logout status | correctly passed | Prefer to develop a chat windows between the customer and support services, also it is great to embed an AI representative while during the off time |
-| Google GPS | Tested if wighets can retrieve the right data from cloud service and all widgets can be found | correctly passed | Adding keyword recommendation will be good for exercises to find a better destination to go |
-| Video demo | Test if the youtube video widgets, play button, and icon can be find by flutter tester | correctly passed | Can add more video features |
-| Workout records | Test if those health records can be shown | correcly passed | Data can be dynamic for the next development phase and the layout can be changed to fit in multiple devices screen |
+| Function | Criteria | result | 
+| ------------- | -------- | ----------- |
+| chatscreen | Check whether the user input is normal and whether the listview can scroll normally | correctly passed |
+| login | Test whether you can log in with an unauthorized user | correctly passed | 
+| roundedbutton | Test whether a custom widget can meet the requirements | correctly passed | 
+| welcomescreen | Test whether the login and registration buttons on the login interface are norma | correcly passed | 
+
+There are also some tests that continue to be improved in the future, such as sound test and Google map test, and whether the size in the game mode is matched.
 
 
 ## Demo
 
-The video demo can be visited [here](https://app.vidgrid.com/view/tSy0JJZw5J3w)   
-Since this file are too large to upload, so I uploaded the complete file on Canvas. Here, the slide without implementation video can be accessed from [here](https://github.com/ZexiXin/CYBR8480_Semester_Project/blob/main/Semester%20Project%20Presentation.pptx)
+The video demo [here]()   
+
 
 
 ## Packaging and Release
