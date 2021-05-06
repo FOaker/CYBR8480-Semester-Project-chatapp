@@ -155,19 +155,12 @@ The video demo [here]()
 
 ## Packaging and Release
 
-To run this app, you need to download this app into you local directory by click the "Code" button on the top right side in the main page of this repo, and click either "Open with GitHub Desktop" or "Download Zip". Here, if you select zip file to download, you need to unzip it order to run it. 
+To run this application, you need to download this application to a local directory by clicking the "Code" button at the top right of the main page of this repository, and then click "Open with GitHub Desktop" or "Download Zip".
 
-![GitHub download](https://github.com/ZexiXin/CYBR8480_Semester_Project/blob/main/assets/github_download.PNG)
+If you want the app to run, you can connect to the firebase database and set it up, download the google json file and put it into the app layer and you have to create you own API to enable the GPS function and API key.
 
-Additionally, you need to download the Android Studio with several Plugin like flutter to check the code. For more installation, please visiting [here](https://flutter.dev/docs/get-started/install). In the previous link, it includes instructions of how to set up emulator and other required configurations of Android Studio for several different OS. 
-
-Next, if you want to run this app in the actual phone though USB, you have to install the appropriate USB driver enable the development option in your device. Please following with this [link for more detail (Note: this is just for Android devices)](https://developer.android.com/studio/run/oem-usb). For iOS, please visit this [Build and release an iOS app](https://flutter.dev/docs/deployment/ios)  
-
-**Hardware Requirement:** laptop, actual phones running on either iOS or Android, network cable or Wifi, USB cable  
-**Software Requirement:** Android studio, Flutter plugin, USB devices driver, Google Cloud Platform API (You have to create you own API to enable the GPS function), Firebase NoSQL backend
-
-While you are able to run this app in the emulator, you should see an UI similar to the image below:  
-![Sample](https://github.com/ZexiXin/CYBR8480_Semester_Project/blob/main/assets/UI_sample.PNG)
+While you are able to run this app in the emulator, you should see UI chat screen like  
+![this]()
 
 
 **Note:** After set everything necessary for this app, if the Android Studio gives you an error message while you compile/build the app. You could try to run the command in the terminal
