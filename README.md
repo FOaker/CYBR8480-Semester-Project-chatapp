@@ -26,6 +26,7 @@ In today's world, science and technology are growing, and more and more APPs app
 * **Dice game:** This feature is very interesting! You may not think of the usefulness of this feature. When you are having fun with your friends, if you want to drink or do something else, is dice a good choice? Then, the function of this function is reflected. By comparing the size of the dice, two people can compete with each other.
 * **Music:** When you want to show your friends certain talents, such as musical talents. You can open this App and show your talents to your friends. Your friends will be surprised!   
 * **Map:** This system provides chat real-time positioning function. If you feel that the relationship between two people can make an appointment to have fun, you can turn on this positioning function. When you go to the appointment, watching the two get closer and closer, you must be very excited in your heart!
+* **Chat:** Chat system has always provided users with a timely and secure chat system, connected via Google database. The APP can provide two people to chat, as well as two people positioning, and some entertainment projects can allow two people to interact, increase the interactivity of two people. Even multi-person chat and entertainment.If possible, my idea is to be able to directly stack the ID card information through two mobile phones and directly join the chat system.
 
 ### Requirements-analysis
 #### User stories 1
@@ -72,48 +73,41 @@ As an Internet hacker in social engineering, I want to collect user location inf
 ### Design
 ![](/pic/chatapp.png)
 
-**Or check the "raw" resource [this link to raw Design](/pic/chatapp.png).**
+**Or check the raw resource [this link to raw Design](/pic/chatapp.png).**
 
 ## Component List
 ### 1. Authentication Component
-User authentication mechanism will be provided while our customer wants to contact question services. It is using the Firebase Backend-as-a-Service (Baas) to process user's credential authorization. Individual can only access his/her own messages along with those response from customer support, so the privacy will be guaranteed.
+When our users want to use chat app, we will provide user authentication mechanism. It uses the Firebase backend cloud service to handle user credential authorization. You can only access users who have logged in to this system to get messages, so privacy will be guaranteed.
 
 #### Sub-component 1.1 User Login
-Each existed user in the backend has to log in before they can directly send and check the communication message between himself/herself with our client service. We are using HTTPS protocol to build the connection, and user's login is not complicated. Just provide their email address and personal chosen password (which should at least 6 characters).
+Every existing user must log in before they can send and share information directly. The HTTPS protocol is used to establish a connection, and the user's login is not complicated. Just provide their email address and personally chosen password (at least 6 characters) when registering.
 
 #### Sub-component 1.2 User Register
-If there is a new user that the backend has not stored his/her information, the mobile app will prompt this user to do a simple registration with nickname, email, and password.
+If it is a new user, there is a registration function that can register user information in the database, and register with a non-personal email and a 6-digit password.
 
-#### Sub-component 1.2 Cloud Firestone
-It is a database which is using JSON format or some secure ways to store all the user's credentials along with their questions. Every user's personal information will be managed by Google instead of the mobile app.  
-
-
-### 2. Mobile Local Features
-A user health record demo page will be provided. It is running locally and recording all kind of workout related data of the user. Such as, how many steps he/she has walked along with the consumption of calories. Additionally, there is a timer to calculate how long does the user spend on exercising
-
-#### Sub-component 2.1 Hydration Tracker
-The hydration tracker has also been embedded in the local features. Users can put their daily dose of water ingestion into the app, so the app will help them to remember how many cups of water they have drunk in case dehydration  
-
-#### Sub-component 2.2 Heart Rate Detector
-Heart rate detector has been designed for those users who would not like to wear a kind of senser to measure their heart rate. This local function is mainly taking advantage from camera image processing technology to detect users' heart rate. Just put two fingers under phones camera while running HealthCare app, users will know their current heartbeat after working out. 
-
-### 3. Google Map Service
-Google Map services is using the Google Cloud Platform as the backend to interact with HealthCare app. The HealthCare app will use a secure API to access Google's services like Map Direction, Map iOS, and Map Android. Users' data will be protected by the security structure of Google.
+### 2. Google Map Service Component
+The Google Map service uses Google Cloud Platform as the backend for interacting with chat apps. The chat app will use a secure API to access Google's services. The user's instant data will be protected by Google api security.
 
 #### Sub-component 1.1 GPS Service
-The HealthCare location tracker will access user's current location, since it is mainly designing for those users who like to hike and bicycle. Thus, they will not lose their direction and can also realize if they have gone too far from their home. All those data will be processed by Google, so HealthCare will not collect any information from users.
+The chat app location tracker will access the user's current location, because it is mainly designed for users who like to face-to-face, and can guarantee their successful meeting. All this data will be processed by Google.
 
-#### Sub-component 1.2 Distance Calculator
-Distance measure function is very useful to give the general idea for those users who are always running or cycling too far away because it helps users calculate the total kilometers between two locations. Furthermore, it can show the fastest path between two places, so users can bypass the heavy traffic while exercising.  
+#### Sub-component 1.2 Two-person Distance 
+It can help users calculate the total number of kilometers between two locations. It can also show the fastest route between two locations, so users can bypass heavy traffic.
 
-### 3. Video Accessing Service
-HealthCare ought to provide some video demo to those users who would like to do the indoor exercising or have no idea how to do some less workflow workout. Users can adjust the play speed of video and full screen it. 
+### 3. Local Entertainment Features Service
+Chat app has two entertainment methods, one is sieve and the other is music mode, which can add fun to users’ lives
 
-#### Sub-component 1.1 Video Searching
-Searching other video is useful if users have their preference to watch or favorite youtuber trainer to follow, but they have to know the exact video id or link. This is a concern for users' privacy because HealthCare app will not use plain text to retrieve video from YouTube, so it will not expose users' behaviors.
+#### Sub-component 1.1 Sieve Mode
+If the user likes to use a sieve to fight against other users, then this feature can improve the user's friendship relationship to a big level, because it can deepen the interaction between the user and the user.
 
-#### Sub-component 1.2 Video List
-Default video list is necessary, since some users might not want to do some search on watch exercise demo. Therefore, HealthCare provides some basic workout video or even live channel, so users could just warm up themselves and practice with those workout channels. 
+#### Sub-component 1.2 Music Mode
+If users like to show their talents to others, then this model is born for this. Simple, convenient and fast is the design concept of this model.
+
+### 4. Chat system Service
+Chat app has always provided users with a timely and secure chat system, connected via Google database. The APP can provide two people to chat, as well as two people positioning, and some entertainment projects can allow two people to interact, increase the interactivity of two people. Even multi-person chat and entertainment.If possible, my idea is to be able to directly stack the ID card information through two mobile phones and directly join the chat system.
+
+#### Sub-component 1.1 Grop chat
+Multi-person interactive projects, positioning of two people, and some entertainment projects can make two people interact and increase the interactivity of two people.
 
 
 ## Security analysis
