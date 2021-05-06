@@ -111,7 +111,7 @@ Multi-person interactive projects, positioning of two people, and some entertain
 
 
 ## Security analysis
-The misuse case and its remediation of HealthCare app is mainly discussing the security level while hackers would like to do several attacks to get unauthorized access or escalate his privilege to retrieve user's location and login credentials. 
+Security analysis of abuse cases, the remedial measures for chat applications are mainly discussing the security level, and hackers want to conduct several attacks, such as gaining unauthorized access or sniffing to discover the user's location and login credentials.
 
 
 **Or check the raw resource [This link to raw Design](/pic/ChatAppsecurityanalysis.png).**
@@ -127,7 +127,8 @@ The misuse case and its remediation of HealthCare app is mainly discussing the s
 
 
 ## Implementation
-Implementation has been submitted and please check the /lib/main file in this repo. Or for simple acess, please click [Here!](https://github.com/ZexiXin/CYBR8480_Semester_Project/blob/main/lib/main.dart)
+Check the /lib/main file in this repo or click link 
+[Here!](https://github.com/ZexiXin/CYBR8480_Semester_Project/blob/main/lib/main.dart)
 
 
 ## Testing
