@@ -137,7 +137,7 @@ Check the /lib/main file in this repo or click  [Link!](https://github.com/FOake
 All the test case can be viewed [test!](https://github.com/FOaker/CYBR8480-Semester-Project-chatapp/tree/main/test)
 
 
-| Function | Criteria | result | actions taken to mitigate |
+| Function | Criteria | Result | Actions taken to mitigate |
 | ------------- | -------- | ----------- |------------------------- |
 | chatscreen | Check whether the user input is normal and whether the listview can scroll normally | correctly passed | Not required |
 | login | Test whether you can log in with an unauthorized user | correctly passed | Not required |
