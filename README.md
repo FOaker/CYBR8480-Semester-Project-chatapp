@@ -160,7 +160,7 @@ To run this application, you need to download this application to a local direct
 If you want the app to run, you can connect to the firebase database and set it up, download the google json file and put it into the app layer and you have to create you own API to enable the GPS function and API key.
 
 While you are able to run this app in the emulator, you should see UI chat screen like  
-![this]()
+![this](/pic/letschat.png)
 
 
 **Note:** After set everything necessary for this app, if the Android Studio gives you an error message while you compile/build the app. You could try to run the command in the terminal
