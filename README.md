@@ -71,7 +71,7 @@ As an Internet hacker in social engineering, I want to collect user location inf
 
 ### Design
 
-![High Level Design of HealthCare App](./assets/high_level_design_1.svg)
+![Chat_APP Design](./pic/Chat_APP Design.png)
 
 **If you would like acess the larger view of the image, please click [this link to HealthCare Design](./assets/design_2.png), or you can click the top image then check the "raw" resource.**
 
